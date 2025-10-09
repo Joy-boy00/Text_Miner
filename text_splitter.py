@@ -6,7 +6,7 @@ def score(data,index):
     print("processong ===> ",index)
     return out
 if __name__ == "__main__":
-    f = open("data.txt",'r',encoding='utf-8')
+    f = open("TPG A history of the Peninsular War.txt",'r',encoding='utf-8')
     huge_text = f.read()
 
     chunks = huge_text.split("\n") # splitting the huge text to paragraphs
